@@ -1,0 +1,119 @@
+#team-hero {
+    background-image: url('../assets/images/heros/mayaBand.jpg');
+    height: 40vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -1;
+}
+
+#team-hero::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#team-hero .team-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--Main-Font);
+    position: relative;
+    z-index: 1;
+}
+
+#team-hero .team-text h2 {
+    color: var(--Main-Gold);
+    font-size: 4rem;
+}
+
+#team-hero .team-text h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.team-bios {
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.team-bios .name {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team-bios .name h2 {
+    font-size: 2rem;
+    font-family: var(--Main-Font);
+    color: var(--Main-Gold);
+}
+
+.team-bios .name h3 {
+    color: white;
+    font-family: var(--Secondary-Font);
+}
+
+.team-bios .name img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.team-bios .bio {
+    flex-basis: 85%;
+    text-align: left;
+    color: white;
+    font-family: var(--Secondary-Font);
+    transform: translateY(-20%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

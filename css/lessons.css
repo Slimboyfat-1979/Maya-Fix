@@ -1,0 +1,152 @@
+#lessons-hero {
+    background-image: url('../assets/images/heros/lessons-hero.jpg');
+    height: 40vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -1;
+}
+
+#lessons-hero::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#lessons-hero .lessons-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--Main-Font);
+    position: relative;
+
+}
+
+#lessons-hero .lessons-text h2 {
+    color: var(--Main-Gold);
+    font-size: 4rem;
+}
+
+#lessons-hero .lessons-text h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.lesson-blurb {
+    padding: 70px 70px 30px 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.lesson-blurb h2 {
+    font-family: var(--Main-Font);
+    color: var(--Main-Gold);
+    font-size: 2rem;
+    padding: 20px 0 20px 0;
+}
+
+.lesson-blurb p {
+    font-family: var(--Secondary-Font);
+    margin-bottom: 10px;
+}
+
+.lesson-price table {
+    background-color: white;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: var(--Secondary-Font);
+}
+
+.faq {
+    background-color: black;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--Main-Font);
+    color: var(--Main-Gold)
+}
+
+.accordion {
+    color: white;
+    padding: 30px 70px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: 2px solid var(--Main-Gold);
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+    cursor: pointer;
+    font-family: var(--Main-Font);
+    font-size: 2rem;
+    color: var(--Main-Gold);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
+    font-family: var(--Secondary-Font);
+    background-color: white;
+    color: black;
+}
+
+.accordion-content.active {
+    max-height: 500px;
+    padding: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

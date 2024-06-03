@@ -1,0 +1,45 @@
+footer {
+    background-color: white;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: var(--main-padding)
+}
+
+footer h2 {
+    font-family: var(--Main-Font);
+    font-size: 2rem;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0;
+    font-family: var(--Secondary-Font);
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.shameless-plug {
+    text-align: center;
+    font-family: var(--Main-Font);
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.shameless-plug a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: mediumpurple;
+
+}

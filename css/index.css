@@ -1,6 +1,3 @@
-:root {
-
-}
 
 #hero {
     position: relative;
@@ -152,6 +149,7 @@ video {
     text-align: center;
 }
 
+
 #maya-testimonials .testimonials div p {
     color: white;
     font-family: var(--Secondary-Font);
@@ -162,7 +160,45 @@ video {
     content: '"';
 }
 
+@media screen and (max-width: 480px) {
 
+    #hero .intro-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #hero .intro-text h1 {
+        font-size: 3rem;
+    }
+
+    #maya-intro .intro-text h2{
+        font-size: 3rem;
+    }
+
+    #maya-intro .services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #maya-intro .services div {
+        padding: 20px 0px;
+    }
+
+    #maya-testimonials {
+        padding: 20px 0;
+    }
+
+    #maya-testimonials .intro-text {
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    #maya-testimonials .testimonials {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+}
 
 
 

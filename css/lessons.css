@@ -68,6 +68,7 @@
     margin: 0 auto;
     padding: 20px 0;
     font-family: var(--Secondary-Font);
+    border-collapse: collapse;
 }
 
 .faq {
@@ -98,7 +99,7 @@
     cursor: pointer;
     font-family: var(--Main-Font);
     font-size: 2rem;
-    color: var(--Main-Gold);
+    color: white;
 }
 
 .accordion-content {
@@ -115,6 +116,24 @@
     padding: 20px 20px;
 }
 
+@media screen and (max-width: 480px) {
+
+    #lessons-hero .lessons-text h2 {
+        font-size: var(--mobile-heading-size-h3);
+    }
+
+    #lessons-hero .lessons-text h3 {
+        font-size: var(--mobile-heading-size-h3);
+    }
+
+    .lesson-price table {
+        width: 100%;
+    }
+
+    .faq .accordion {
+      padding: 35px;
+    }
+}
 
 
 

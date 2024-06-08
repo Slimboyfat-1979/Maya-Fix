@@ -1,6 +1,9 @@
 const CAROUSELTIMER = 4000;
 const navigation = document.getElementById('navbar');
-document.addEventListener('DOMContentLoaded', runAccordion);
+document.addEventListener('DOMContentLoaded', () => {
+    runAccordion();
+    stopVideo();
+});
 
 window.addEventListener('scroll', function(evt){
     if(window.scrollY > navigation.offsetHeight) {
@@ -57,6 +60,36 @@ function runAccordion() {
         })
     })
 }
+
+function stopVideo(){
+    if(window.innerWidth <=480) {
+        document.querySelector('#hero video').removeAttribute('autoplay');
+    }
+}
+
+const menuItems = document.querySelector('.menu-items ul');
+function toggleMenuItems() {
+    menuItems.style.transform = 'translateX(-200%)';
+    if(document.querySelector('.menu').classList.contains('open')) {
+        setTimeout(() => {
+            menuItems.style.transform = 'translateX(0)';
+        }, 250)
+    }
+}
+
+//Responsive Stuff
+
+const menuBtn = document.querySelector('.hamburger');
+
+
+menuBtn.addEventListener('click', () => {
+    document.querySelector('.menu').classList.toggle('open');
+    toggleMenuItems();
+})
+
+
+
+
 
 
 

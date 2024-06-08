@@ -6,6 +6,9 @@
     --Secondary-Font: 'Poppins';
     --Main-Gold: #F9B700;
     --main-padding: 70px 70px 70px 70px;
+    --mobile-heading-size-h2: 3rem;
+    --mobile-heading-size-h3: 2rem;
+    --mobile-padding: 70px 35px 70px 35px;
 }
 
 nav {
@@ -14,6 +17,10 @@ nav {
     position: fixed;
     transition: background-color 0.3s ease-in-out;
     z-index: 1;
+}
+
+#navbar {
+    display: none;
 }
 
 nav.active {
@@ -49,7 +56,96 @@ nav.active {
     color: var(--Main-Gold);
 }
 
+#mobile-nav {
+    height: 7vh;
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
 
+#mobile-nav .nav-container {
+    display: flex;
+    align-items: center;
+
+}
+
+#mobile-nav .nav-container .hamburger {
+    height: 20px;
+    width: 30px;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mobile-nav .nav-container .hamburger .line {
+    background-color: var(--Main-Gold);
+    height: 2px;
+    width: 100%;
+}
+
+#mobile-nav .nav-container .logo img {
+    width: 150px;
+}
+
+ .menu {
+    height: 100vh;
+    width: 70vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transform: translateX(-100vw);
+    transition: all 0.3s ease-in-out;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+ .menu .menu-items {
+    color: white;
+     font-family: var(--Main-Font);
+     font-size: 1.5rem;
+ }
+
+ .menu .menu-items ul {
+     transition: all 0.3s ease-in-out;
+ }
+
+ .menu .menu-items ul li {
+     list-style: none;
+     padding: 4px 0;
+ }
+
+ .menu .menu-items ul li a {
+     text-decoration: none;
+     color: white;
+     cursor: pointer;
+     transition: color 0.3s ease-in-out;
+ }
+
+ .menu .menu-items ul li a:hover {
+     color: var(--Main-Gold);
+ }
+
+ .menu.open {
+     transform: translateX(0);
+ }
+
+
+@media screen and (min-width: 480px) {
+    #mobile-nav {
+        display: none;
+    }
+
+    #navbar {
+        display: block;
+    }
+}
 
 
 

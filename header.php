@@ -39,3 +39,28 @@
         </ul>
     </div>
 </nav>
+
+<nav id="mobile-nav">
+    <div class="nav-container">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="logo">
+            <img src="./assets/logo.webp" alt="">
+        </div>
+    </div>
+</nav>
+<div class="menu">
+    <div class="menu-items">
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="lessons.php">Lessons</a></li>
+            <li><a href="team.php">Meet The Team</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </div>
+</div>

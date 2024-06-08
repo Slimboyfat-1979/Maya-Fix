@@ -14,7 +14,8 @@
         <div>
             <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
             <h2>Sales</h2>
-           <p>In store we have a large range of musical instruments and equipment for sale. Our friendly staff are here to help understand your requirements and find the best solution to your needs. Check out our 'SHOP' page, alternatively pop in and see all we have in store or send us your enquiry via the 'CONTACT US' link.</p>
+           <p>In store we have a large range of musical instruments and equipment for sale. Our friendly staff are here to help understand your requirements and find the best solution to your needs. Check out our 'SHOP' page, alternatively pop in and see all we have in store or
+               <a href="contact.php">send us your enquiry</a></p>
         </div>
         <div>
             <i class="fa-solid fa-arrow-right-arrow-left" aria-hidden="true"></i>
@@ -41,8 +42,6 @@
             <h2>Rehearsal Space</h2>
             <p>If you are a Manager looking for a space for a touring band to rehearse, or a group of casual musicians needing a place to jam, we offer a space outside of business hours for you to hire. We provide you with a Ludwig drum kit, a Marshall MB450 H Bass Amp head and cab, a Marshall VS100 Guitar Amp head and cab, as well as a Soundcraft GIGRAC 600 PA, Shure PGA 58 & Samson R21S microphone both with stand. All you have to do, is book a day and time, bring your own instruments or talk to us about hiring some of our instruments, then play as loud as you please and have a rocking good time.</p>
         </div>
-
-
     </div>
 </section>
 

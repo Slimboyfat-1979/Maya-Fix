@@ -66,3 +66,23 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    #contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-text {
+        padding: 70px 35px 0 35px;
+    }
+
+    .contact-form {
+        padding: 0 35px 35px 35px;
+        transform: translateY(0);
+    }
+
+    .contact-text p {
+        font-size: 1rem;
+    }
+}

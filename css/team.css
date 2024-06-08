@@ -81,6 +81,24 @@
     transform: translateY(-20%);
 }
 
+@media screen and (max-width: 480px){
+    #team-hero .team-text h2 {
+        font-size: var(--mobile-heading-size-h2);
+    }
+
+    #team-hero .team-text h3 {
+        font-size: var(--mobile-heading-size-h3);
+    }
+
+    .team-bios {
+        flex-direction: column;
+    }
+
+    .team-bios .bio {
+       transform: translateX(0);
+        text-align: center;
+    }
+}
 
 
 

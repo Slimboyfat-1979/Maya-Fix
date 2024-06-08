@@ -1,3 +1,7 @@
+#loader {
+    display: none;
+}
+
 #shop-hero {
     background-image: url('../assets/images/heros/guitar.jpg');
     height: 40vh;
@@ -70,6 +74,41 @@
     font-family: var(--Main-Font) !important;
     color: var(--Main-Gold) !important;
     font-size: 2rem !important;
+    position: relative;
+    z-index: -10;
+}
+
+@media screen and (max-width: 480px) {
+    #shop-hero .shop-text h2 {
+        font-size: var(--mobile-heading-size-h2);
+        text-align: center;
+    }
+
+    #shop-hero .shop-text h3 {
+        font-size: var(--mobile-heading-size-h3);
+    }
+
+    .cort {
+        width: 50px !important;
+        height: 50px !important;
+        object-fit: contain !important;
+    }
+
+    .marquee {
+        position: relative;
+        z-index: -10;
+    }
+
+    .marquee li img {
+        max-width: 70px;
+        max-height: 70px;
+        object-fit: contain;
+    }
+
+    #mobile-nav {
+        position: relative;
+        z-index: 10;
+    }
 }
 
 /*#loader {*/

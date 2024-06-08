@@ -101,20 +101,40 @@
     font-size: 2rem;
     color: white;
 }
-
 .accordion-content {
-    max-height: 0;
+    display: none;
     overflow: hidden;
-    transition: max-height 0.8s ease-in-out;
-    font-family: var(--Secondary-Font);
-    background-color: white;
+    max-height: 0;
+    transition: all 1s ease-in;
     color: black;
+    background-color: white;
+    padding: 20px 20px;
+    font-family: var(--Secondary-Font);
+}
+
+.accordion-content.visible {
+    display: block;
 }
 
 .accordion-content.active {
-    max-height: 500px;
-    padding: 20px 20px;
+    max-height: 2000px;
+    transition: all 1s ease-in
 }
+
+/*.accordion-content {*/
+/*    max-height: 0;*/
+/*    overflow: hidden;*/
+/*    transition: max-height 0.3s ease-in-out;*/
+/*    font-family: var(--Secondary-Font);*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*}*/
+
+/*.accordion-content.active {*/
+/*    max-height: 500px;*/
+/*    padding: 20px 20px;*/
+/*}*/
+
 
 @media screen and (max-width: 480px) {
 

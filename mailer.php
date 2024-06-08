@@ -45,7 +45,10 @@ try {
     $mail->AltBody = $message;
 
     $mail->send();
-    echo 'Message has been sent';
+    echo '<script>
+          alert("Message has been sent! Redirecting you back to the home page");
+          window.location.href="index.php";
+          </script>';
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

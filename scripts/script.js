@@ -50,16 +50,18 @@ setInterval(() => {
 
 function runAccordion() {
     const accordionItems = document.querySelectorAll('.accordion-item');
-
+    console.log(accordionItems);
     accordionItems.forEach(item => {
-        const title = item.querySelector('.accordion-title');
-        const content = item.querySelector('.accordion-content');
-
-        title.addEventListener('click', function(){
-           content.classList.toggle('active');
+        item.querySelector('.accordion-title').addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            content.classList.toggle('visible');
+            setTimeout(() => {
+                content.classList.toggle('active')
+            }, 10)
         })
     })
 }
+
 
 function stopVideo(){
     if(window.innerWidth <=480) {
@@ -80,7 +82,6 @@ function toggleMenuItems() {
 //Responsive Stuff
 
 const menuBtn = document.querySelector('.hamburger');
-
 
 menuBtn.addEventListener('click', () => {
     document.querySelector('.menu').classList.toggle('open');

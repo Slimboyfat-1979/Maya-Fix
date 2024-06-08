@@ -13,7 +13,7 @@
             <div class="beck">
                 <img src="./assets/images/staff/Becks.jpg" alt="">
                 <h2>Becks Cole</h2>
-                <small>Founder/Company Director</small>
+                <small>Founder</small>
             </div>
             <div class="Deo">
                 <img src="./assets/images/staff/DeoAbout.jpg" alt="">

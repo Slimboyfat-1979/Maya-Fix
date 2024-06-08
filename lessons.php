@@ -38,7 +38,7 @@
         <div class="accordion">
             <div class="accordion-item">
                 <div class="accordion-title">When can I start lessons?</div>
-                <div class="accordion-content active">Individual lessons coincide with the school term, however you can start anytime during the term. Because our lessons are very popular it is recommended you contact us as soon as possible to secure a day and time, if nothing is currently available we can pop you on our wait list and contact you as soon as a space opens.</div>
+                <div class="accordion-content">Individual lessons coincide with the school term, however you can start anytime during the term. Because our lessons are very popular it is recommended you contact us as soon as possible to secure a day and time, if nothing is currently available we can pop you on our wait list and contact you as soon as a space opens.</div>
             </div>
             <div class="accordion-item">
                 <div class="accordion-title">How and when do I pay?</div>

@@ -73,67 +73,52 @@
 
 .faq {
     background-color: black;
+    padding: var(--main-padding);
 }
 
 .faq h2 {
     text-align: center;
     font-size: 2rem;
     font-family: var(--Main-Font);
-    color: var(--Main-Gold)
+    color: var(--Main-Gold);
+    margin-bottom: 20px;
 }
 
-.accordion {
-    color: white;
-    padding: 30px 70px;
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.accordion-item {
-    border: 2px solid var(--Main-Gold);
-    margin-bottom: 10px;
-}
-
-.accordion-title {
-    cursor: pointer;
-    font-family: var(--Main-Font);
-    font-size: 2rem;
-    color: white;
-}
-.accordion-content {
-    display: none;
+.content{
     overflow: hidden;
-    max-height: 0;
-    transition: all 1s ease-in;
+    max-height: 0px;
+    transition: max-height 0.5s ease;
+}
+.content p{
+    padding: 25px;
     color: black;
     background-color: white;
-    padding: 20px 20px;
+    text-align: center;
     font-family: var(--Secondary-Font);
 }
+.content:target{
+    max-height: 150px;
+}
 
-.accordion-content.visible {
+.title{
     display: block;
-}
+    padding: 10px;
+    font-size: 2rem;
+    background-color: inherit;
+    color: var(--Main-Gold);
+    border: 1px solid var(--Main-Gold);
+    transition: background-color 0.5s;
+    font-family: var(--Main-Font);
+    text-align: center;
+    text-decoration: none;
 
-.accordion-content.active {
-    max-height: 2000px;
-    transition: all 1s ease-in
 }
-
-/*.accordion-content {*/
-/*    max-height: 0;*/
-/*    overflow: hidden;*/
-/*    transition: max-height 0.3s ease-in-out;*/
-/*    font-family: var(--Secondary-Font);*/
-/*    background-color: white;*/
-/*    color: black;*/
+/*.title:hover{*/
+/*    background-color: #747d8c;*/
 /*}*/
 
-/*.accordion-content.active {*/
-/*    max-height: 500px;*/
-/*    padding: 20px 20px;*/
-/*}*/
+
+
 
 
 @media screen and (max-width: 480px) {

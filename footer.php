@@ -3,29 +3,29 @@
         <div class="company">
             <h2>About Us</h2>
             <ul>
-                <li><a href="">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
         <div class="what-we-offer">
             <h2>What We Offer</h2>
             <ul>
-                <li><a href="">Services</a></li>
-                <li><a href="">Lessons</a></li>
-                <li><a href="">Team</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="lessons.php">Lessons</a></li>
+                <li><a href="team.php">Team</a></li>
             </ul>
         </div>
         <div class="online-shop">
             <h2>Online Shop</h2>
             <ul>
-                <li><a href="">Shop</a></li>
+                <li><a href="shop.php">Shop</a></li>
             </ul>
         </div>
         <div class="follow-us">
             <h2>Follow Us</h2>
             <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><a href="https://www.facebook.com/mayamusicnz">Mayamusicnz</a></li>
             </ul>
 
         </div>

@@ -1,8 +1,10 @@
 const CAROUSELTIMER = 4000;
 const navigation = document.getElementById('navbar');
+
 document.addEventListener('DOMContentLoaded', () => {
     runAccordion();
     stopVideo();
+    runMenu();
 });
 
 window.addEventListener('scroll', function(evt){
@@ -18,13 +20,11 @@ window.addEventListener('scroll', function(evt){
 //then make the navbar static and change the background to black.
 const isItIndex = window.location.pathname.split('/').pop();
 if(isItIndex === 'index.php' || isItIndex === '') {
-    console.log("We are at the home page!")
+
 }else{
     navigation.style.position = 'static';
     navigation.style.backgroundColor = 'black';
 }
-
-
 
 //Carousel Slider
 const carousel = document.getElementById('carousel');
@@ -62,7 +62,6 @@ function runAccordion() {
     })
 }
 
-
 function stopVideo(){
     if(window.innerWidth <=480) {
         document.querySelector('#hero video').removeAttribute('autoplay');
@@ -79,6 +78,21 @@ function toggleMenuItems() {
     }
 }
 
+function runMenu() {
+    const navContainerMenu = document.querySelectorAll('.nav-container ul li a');
+    const navContainerMobile = document.querySelector('.menu .menu-items ul li a');
+    const url = window.location.href;
+    const index = url.substring(url.lastIndexOf('/') + 1);
+    navContainerMenu.forEach((item) => {
+        console.log(item.getAttribute('href'), index);
+
+        if(item.getAttribute('href') === index) {
+            item.classList.add('active');
+        }
+    })
+
+}
+
 //Responsive Stuff
 
 const menuBtn = document.querySelector('.hamburger');
@@ -87,6 +101,7 @@ menuBtn.addEventListener('click', () => {
     document.querySelector('.menu').classList.toggle('open');
     toggleMenuItems();
 })
+
 
 
 

@@ -19,14 +19,23 @@ footer ul {
 
 footer ul li {
     list-style: none;
-    padding: 5px 0;
+    padding: 0px 0;
     font-family: var(--Secondary-Font);
 }
 
 footer ul li a {
     text-decoration: none;
     color: black;
+    font-size: 1.25rem;
 }
+
+.follow-us ul li {
+    display: inline;
+    padding-right: 10px;
+
+}
+
+
 
 .shameless-plug {
     text-align: center;
@@ -44,26 +53,39 @@ footer ul li a {
 }
 
 @media screen and (max-width: 480px) {
-    .footer .footer-content {
+    footer .footer-content {
+        display: flex;
         flex-direction: column;
-    }
-
-    .footer-content div {
-        padding: 0 10px;
         text-align: center;
-
     }
 
-    footer h2 {
+    footer .footer-content div{
+        margin: 10px 0px;
+    }
+
+    footer .footer-content div ul li a {
         font-size: 1rem;
     }
+    /*.footer .footer-content {*/
+    /*    flex-direction: column;*/
+    /*}*/
 
-    footer ul li {
-        padding: 0;
-        font-size: 1rem;
-    }
+    /*.footer-content div {*/
+    /*    padding: 0 0px;*/
+    /*    text-align: center;*/
 
-    footer ul li a {
-        font-size: 0.75rem ;
-    }
+    /*}*/
+
+    /*footer h2 {*/
+    /*    font-size: 1rem;*/
+    /*}*/
+
+    /*footer ul li {*/
+    /*    padding: 0;*/
+    /*    font-size: 1rem;*/
+    /*}*/
+
+    /*footer ul li a {*/
+    /*    font-size: 0.75rem ;*/
+    /*}*/
 }

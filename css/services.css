@@ -80,6 +80,7 @@
 @media screen and (max-width: 480px) {
     #services-hero .services-text h2{
         font-size: var(--mobile-heading-size-h2);
+        text-align: center;
     }
 
     #services-hero .services-text h3 {

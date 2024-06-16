@@ -59,12 +59,16 @@
 
 .button {
     margin-top: 10px;
-    width:30% !important;
+    width: 30% !important;
     padding: 10px;
     background-color: var(--Main-Gold);
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+input[name="honeypot"] {
+    display: none;
 }
 
 @media screen and (max-width: 480px) {

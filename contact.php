@@ -12,19 +12,30 @@
             </p>
         </div>
         <div class="contact-form">
-            <form action="mailer.php" method="post">
+            <form class="form" action="mailer.php" method="post">
                 <label for="">Name</label>
-                <input type="text" name="name">
+                <input required type="text"  name="name">
                 <label for="">Email</label>
-                <input type="email" name="email">
+                <input required type="email" name="email">
                 <label for="">Phone</label>
                 <input type="text" name="phone">
                 <label for="">Message</label>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <textarea required name="message" id="" cols="30" rows="10"></textarea>
+                <input class="honey" type="text" name="honeypot" style="display: none;">
                 <input type="submit" class="button" name="submit">
             </form>
         </div>
     </div>
+    <script>
+        const form = document.querySelector('.form');
+        const honey = document.querySelector('.honey');
+        form.addEventListener('submit', (e)=> {
+            if(honey.value !== '') {
+                e.preventDefault();
+                console.log("Bot Detected!");
+            }
+        })
+    </script>
 </section>
 
 <?php include ('./footer.php') ?>

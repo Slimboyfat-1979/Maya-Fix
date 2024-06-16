@@ -1,13 +1,11 @@
-#loader {
-    display: none;
-}
-
 #shop-hero {
     background-image: url('../assets/images/heros/guitar.jpg');
     height: 40vh;
     width: 100vw;
     background-size: cover;
     background-position: center center;
+    position: relative;
+    z-index: -1;
 }
 
 #shop-hero .shop-text {
@@ -16,13 +14,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--Main-Font);
-    color: var(--Main-Gold);
     flex-direction: column;
-
+    position: relative;
+    font-family: var(--Main-Font);
+    text-align: center;
 }
 
 #shop-hero .shop-text h2 {
+    color: var(--Main-Gold);
     font-size: 4rem;
 }
 
@@ -69,81 +68,90 @@
 }
 
 #shop {
+    position: relative;
     background-color: black;
     padding: 0px 70px 0 70px;
     font-family: var(--Main-Font) !important;
     color: var(--Main-Gold) !important;
     font-size: 2rem !important;
-    position: relative;
     z-index: -10;
+    height: auto;
+}
+
+ /*==================== Ecwid Elements - Css ================== */
+
+.grid-category__title-inner {
+    color: white !important;
+    font-size: 1.5rem !important;
+}
+
+.page-title__name ec-header-h1 {
+    font-size: 2rem !important;
+}
+
+.grid-product__title-inner {
+    color: white !important;
+}
+
+.pager__count-pages, .pager__button-text, .ec-footer, .pager__pages {
+    color: white !important;
+}
+
+.ec-link ec-link--muted pager__number {
+    color: white;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .pager__number--current {
+    color: var(--Main-Gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link--muted, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link--muted:visited {
+    color: white !important;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
+    color: white !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart-step__icon--custom svg {
+    color: var(--Main-Gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link:visited {
+    color: white !important;
+}
+
+#loader {
+    display: none;
 }
 
 @media screen and (max-width: 480px) {
+
     #shop-hero .shop-text h2 {
         font-size: var(--mobile-heading-size-h2);
         text-align: center;
     }
 
-    #shop-hero .shop-text h3 {
-        font-size: var(--mobile-heading-size-h3);
-    }
+        .cort {
+            width: 50px !important;
+            height: 50px !important;
+            object-fit: contain !important;
+        }
 
-    .cort {
-        width: 50px !important;
-        height: 50px !important;
-        object-fit: contain !important;
-    }
+        .marquee {
+            position: relative;
+            z-index: -10;
+        }
 
-    .marquee {
-        position: relative;
-        z-index: -10;
-    }
+        .marquee li img {
+            max-width: 70px;
+            max-height: 70px;
+            object-fit: contain;
+        }
 
-    .marquee li img {
-        max-width: 70px;
-        max-height: 70px;
-        object-fit: contain;
-    }
-
-    #mobile-nav {
-        position: relative;
-        z-index: 10;
-    }
 }
 
-/*#loader {*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background-color: rgba(255, 255, 255, 0.5);*/
-/*    z-index: 9999;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
 
-/*#loader::after {*/
-/*    content: "";*/
-/*    border-top-color: #ff0000;*/
-/*    border-left-color: #ff0000;*/
-/*    border-right-color: #ff0000;*/
-/*    border-bottom-color: #ffffff;*/
-/*    border-style: solid;*/
-/*    border-width: 15px;*/
-/*    border-radius: 50%;*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*    animation: spin 1.5s linear infinite;*/
-/*}*/
 
-/*@keyframes spin {*/
-/*    0% {*/
-/*        transform: rotate(0deg);*/
-/*    }*/
-/*    100% {*/
-/*        transform: rotate(360deg);*/
-/*    }*/
-/*}*/
+
 

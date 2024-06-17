@@ -7,7 +7,7 @@
             <h1>Queenstown's Independent <br>Music Store</h1>
             <h2>Servicing the Lakes District community - All enquiries welcome</h2>
             <a role="button" href="shop.php">Shop Now!</a>
-            <a role="button" href="#">Learn More!</a>
+            <a role="button" href="services.php">Learn More!</a>
         </div>
     </div>
 </section>
@@ -23,49 +23,50 @@
                 <i class="fa-solid fa-drum" aria-hidden="true"></i>
                 <h2>Instrument Sales</h2>
                 <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <a href="shop.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-music" aria-hidden="true"></i>
                 <h2>Music Lessons</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>All ages, abilities and styles. Lessons available Guitar, Bass, Drums, Piano & Voice.</p>
+                <a href="lessons.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-people-group" aria-hidden="true"></i>
                 <h2>Rehearsal Space</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>We make band practice easy for touring musicians, gigging musicians or a casual jam.</p>
+                <a href="contact.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-wine-glass" aria-hidden="true"></i>
                 <h2>Uke & Sip</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>Learn to play ukulele with a glass of wine or beer. Adults only.</p>
+                <a href="contact.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
                 <h2>Maintenance & Repairs</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>We service and repair instruments to a high standard.</p>
+                <a href="services.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-microphone-lines" aria-hidden="true"></i>
                 <h2>Instrument & Equipment Hire</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>Daily, weekly, monthly instrument hire
+                    or do you need a PA for a function?</p>
+                <a href="contact.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-guitar" aria-hidden="true"></i>
                 <h2>Band Jam</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>Superb holiday program for school children.</p>
+                <a href="services.php">Read More</a>
             </div>
             <div>
                 <i class="fa-solid fa-question" aria-hidden="true"></i>
                 <h2>Coming Soon!</h2>
-                <p>We sell a wide range of musical instruments from some of the best known brands.</p>
-                <a href="">Read More</a>
+                <p>Watch this space</p>
+                <a href="contact.php">Read More</a>
             </div>
 
         </div>

@@ -1,6 +1,6 @@
 
 #hero {
-    position: relative;
+    /*position: relative;*/
     z-index: -1;
     height: 100vh;
     width: 100vw;
@@ -51,7 +51,7 @@ video {
     margin: 0 25px 0 0;
     box-shadow: 10px 10px 10px black;
     font-size: 1rem;
-    cursor: default;
+    cursor: pointer;
 }
 
 #hero .intro-text a:first-of-type {
@@ -60,6 +60,11 @@ video {
     color: white;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+#hero .intro-text a:first-of-type:hover {
+    background-color: var(--Main-Gold);
+    color: black;
 }
 
 #maya-intro {

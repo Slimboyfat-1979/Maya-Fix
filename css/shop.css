@@ -68,16 +68,17 @@
 }
 
 #shop {
-    position: relative;
     background-color: black;
     padding: 0px 70px 0 70px;
     font-family: var(--Main-Font) !important;
     color: var(--Main-Gold) !important;
     font-size: 2rem !important;
     z-index: -10;
-    height: auto;
 }
 
+#loader {
+    visibility: hidden;
+}
  /*==================== Ecwid Elements - Css ================== */
 
 .grid-category__title-inner {
@@ -149,6 +150,14 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link, html#ecwid_html bod
             object-fit: contain;
         }
 
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .marquee li img {
+        width: 180px;
+        height: 50px;
+        object-fit: contain;
+    }
 }
 
 

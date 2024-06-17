@@ -33,7 +33,7 @@
     <section>
         <div id="shop">
 
-
+            <div id="loader"></div>
 
             <div class="ecwid">
                 <div id="my-store-82711721"></div>
@@ -91,7 +91,7 @@
 
         <script>
             window.addEventListener('load', function() {
-                document.getElementById('loader').style.display = 'none';
+                document.getElementById('loader').style.visibility = 'hidden';
             });
 
             console.log( document.querySelector('.ec-cart-step__title ec-header-h6'))

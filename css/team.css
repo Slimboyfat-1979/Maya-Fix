@@ -100,6 +100,14 @@
     }
 }
 
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .team-bios .bio {
+        transform: translateY(0);
+        font-size: 15px;
+        padding: 20px;
+    }
+}
+
 
 
 

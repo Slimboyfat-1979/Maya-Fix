@@ -78,14 +78,30 @@
 }
 
 @media screen and (max-width: 480px) {
-    #services-hero .services-text h2{
-        font-size: var(--mobile-heading-size-h2);
+    #services-hero .services-text {
+        transform: translateY(10%);
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    #services-hero .services-text h2 {
+        font-size: 2rem;
         text-align: center;
     }
 
     #services-hero .services-text h3 {
-        font-size: var(--mobile-heading-size-h3);
+        font-size: 1rem;
     }
+
+
+    /*#services-hero .services-text h2{*/
+    /*    font-size: var(--mobile-heading-size-h2);*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*#services-hero .services-text h3 {*/
+    /*    font-size: var(--mobile-heading-size-h3);*/
+    /*}*/
 
     .services-container {
         grid-template-columns: repeat(1, auto);

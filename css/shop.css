@@ -128,12 +128,22 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link, html#ecwid_html bod
 
 @media screen and (max-width: 480px) {
 
+    #shop-hero .shop-text {
+        transform: translateY(10%);
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
     #shop-hero .shop-text h2 {
-        font-size: var(--mobile-heading-size-h2);
+        font-size: 2rem;
         text-align: center;
     }
 
-        .cort {
+    #shop-hero .shop-text h3 {
+        font-size: 1rem;
+    }
+
+    .cort {
             width: 50px !important;
             height: 50px !important;
             object-fit: contain !important;
@@ -159,6 +169,7 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link, html#ecwid_html bod
         object-fit: contain;
     }
 }
+
 
 
 

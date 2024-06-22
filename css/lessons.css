@@ -123,13 +123,28 @@
 
 @media screen and (max-width: 480px) {
 
+    #lessons-hero .lessons-text {
+        transform: translateY(10%);
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
     #lessons-hero .lessons-text h2 {
-        font-size: var(--mobile-heading-size-h3);
+        font-size: 2rem;
+        text-align: center;
     }
 
     #lessons-hero .lessons-text h3 {
-        font-size: var(--mobile-heading-size-h3);
+        font-size: 1rem;
     }
+
+    /*#lessons-hero .lessons-text h2 {*/
+    /*    font-size: var(--mobile-heading-size-h3);*/
+    /*}*/
+
+    /*#lessons-hero .lessons-text h3 {*/
+    /*    font-size: var(--mobile-heading-size-h3);*/
+    /*}*/
 
     .lesson-price table {
         width: 100%;

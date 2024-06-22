@@ -82,13 +82,29 @@
 }
 
 @media screen and (max-width: 480px){
+    #team-hero .team-text {
+        transform: translateY(10%);
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
     #team-hero .team-text h2 {
-        font-size: var(--mobile-heading-size-h2);
+        font-size: 2rem;
+        text-align: center;
     }
 
     #team-hero .team-text h3 {
-        font-size: var(--mobile-heading-size-h3);
+        font-size: 1rem;
     }
+
+
+    /*#team-hero .team-text h2 {*/
+    /*    font-size: var(--mobile-heading-size-h2);*/
+    /*}*/
+
+    /*#team-hero .team-text h3 {*/
+    /*    font-size: var(--mobile-heading-size-h3);*/
+    /*}*/
 
     .team-bios {
         flex-direction: column;

@@ -53,16 +53,6 @@ $filename = basename($_SERVER['PHP_SELF']);
 $title = isset($pageDetails[$filename]['title']) ? $pageDetails[$filename]['title'] : '';
 $stylesheet = isset($pageDetails[$filename]['stylesheet']) ? $pageDetails[$filename]['stylesheet'] : '';
 
-
-
-
-
-
-
-
-
-
-
 ?>
 
 

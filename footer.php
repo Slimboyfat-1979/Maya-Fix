@@ -31,7 +31,9 @@
         </div>
     </div>
     <div class="shameless-plug">
-        <p>Developed By <br> <a href="https://lookoutdigital.co.nz">Lookout! Digital</a></p>
+        <p>Developed By <br></p>
+        <a href="https://lookoutdigital.co.nz"><img style="width: 250px; height: 100px; object-fit: contain; margin-top: 20px" src="./assets/lookoutlogo.png" alt=""></a>
+        <p>We Make Great Websites</p>
     </div>
 </footer>
 

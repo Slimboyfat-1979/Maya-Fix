@@ -15,6 +15,7 @@ window.addEventListener('scroll', function(evt){
     }
 })
 
+
 //Find Out Whether the index page is being shown or not. If it isn't
 //then make the navbar static and change the background to black.
 const isItIndex = window.location.pathname.split('/').pop();
@@ -46,6 +47,7 @@ setInterval(() => {
 }, CAROUSELTIMER)
 
 //Accordion
+
 function runAccordion() {
     const accordionItems = document.querySelectorAll('.accordion-item');
     console.log(accordionItems);
@@ -92,6 +94,7 @@ function runMenu() {
 }
 
 //Responsive Stuff
+
 const menuBtn = document.querySelector('.hamburger');
 
 menuBtn.addEventListener('click', () => {

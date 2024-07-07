@@ -118,10 +118,3 @@
 </section>
 <?php require_once ('./footer.php') ?>
 
-
-<!--<a class="button" href="shop.php">Shop Online Now</a>-->
-<!--<img class="afterpay" src="../assets/images/misc/afterpay_black-removebg-preview.png" alt="">-->
-<!--<p>Call us: <span><a href="tel:03 428-0036">03 428-0036</a></span></p>-->
-<!--<p>Email: <span><a href="mailto:info@mayamusic.co.nz">info@mayamusic.co.nz</a></span></p>-->
-<!--<a href="https://www.facebook.com/mayamusicnz"><i class="fa-brands fa-facebook fa-1x"></i></a>-->
-<!--<a href=""><i class="fa-brands fa-instagram"></i></a>-->

@@ -33,25 +33,37 @@
     <section>
         <div id="shop">
 
-            <div id="loader"></div>
-
-            <div class="ecwid">
-                <div id="my-store-82711721"></div>
-                <div>
-                    <script data-cfasync="false" type="text/javascript" src="https://app.business.shop/script.js?82711721&data_platform=code&data_date=2022-12-04" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(5,5) list(25) table(25)","categoryView=grid","searchView=list","id=my-store-82711721");</script>
-                </div>
-            </div>
-
-            <div id="loader"></div>
+            <div id="my-search-82711721"></div>
             <div>
                 <script data-cfasync="false" type="text/javascript" src="https://app.business.shop/script.js?82711721&data_platform=code&data_date=2022-12-04" charset="utf-8"></script>
+                <script type="text/javascript"> xSearch("id=my-search-82711721"); </script>
             </div>
+
             <div class="ecwid">
                 <div id="my-store-82711721"></div>
                 <div>
                     <script data-cfasync="false" type="text/javascript" src="https://app.business.shop/script.js?82711721&data_platform=code&data_date=2022-12-04" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(5,5) list(25) table(25)","categoryView=grid","searchView=list","id=my-store-82711721");</script>
                 </div>
             </div>
+<!--            <div id="loader"></div>-->
+<!---->
+<!--            <div class="ecwid">-->
+<!--                <div id="my-store-82711721"></div>-->
+<!--                <div>-->
+<!--                    <script data-cfasync="false" type="text/javascript" src="https://app.business.shop/script.js?82711721&data_platform=code&data_date=2022-12-04" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(5,5) list(25) table(25)","categoryView=grid","searchView=list","id=my-store-82711721");</script>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div id="loader"></div>-->
+<!--            <div>-->
+<!--                <script data-cfasync="false" type="text/javascript" src="https://app.business.shop/script.js?82711721&data_platform=code&data_date=2022-12-04" charset="utf-8"></script>-->
+<!--            </div>-->
+<!--            <div class="ecwid">-->
+<!--                <div id="my-store-82711721"></div>-->
+<!--                <div>-->
+<!--                    <script data-cfasync="false" type="text/javascript" src="https://app.business.shop/script.js?82711721&data_platform=code&data_date=2022-12-04" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(5,5) list(25) table(25)","categoryView=grid","searchView=list","id=my-store-82711721");</script>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
 
         <style>

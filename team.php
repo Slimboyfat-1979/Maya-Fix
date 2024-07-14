@@ -36,10 +36,10 @@
         <div class="name">
             <img src="./assets/images/staff/Becks.jpg" alt="">
             <h2>Becks Cole</h2>
-            <h3>Online</h3>
+            <h3>Marketing</h3>
         </div>
         <div class="bio">
-            <p>Co Founder and Director of Maya Music, Becks Cole is not the musician in the business, but it has been said, she is the back- bone, her drive, nurture and ambition, along with her friendly personality and positivity has grown Maya Music from its infancy to where it is in early 2022. After the sudden loss of her loved son in February 2022 Beck's has chosen to step away from the day to day running of the business to be closer to her children and grandson. Residing in the Tasman Bay, Becks remains actively involved in Maya Music from a far.</p>
+            <p>Co Founder and Director of Maya Music, Becks Cole is not the musician in the business, but it has been said, she is the back- bone, her drive, nurture and ambition, along with her friendly personality and positivity has grown Maya Music from its infancy to where it is in early 2022. After the sudden loss of her loved son in February 2022 Beck's has chosen to step away from the day to day running of the business to be closer to her children and grandson. Residing in the Tasman Bay, Becks remains actively involved in Maya Music from afar.</p>
         </div>
     </div>
     <div class="team-bios">
@@ -77,11 +77,11 @@
     <div class="team-bios">
         <div class="name">
             <img src="./assets/images/staff/Jane.jpg" alt="">
-            <h2>Tiago Garcia</h2>
-            <h3>Bass</h3>
+            <h2>Jane Robertson</h2>
+            <h3>Piano</h3>
         </div>
         <div class="bio">
-            <p>Bio To Come</p>
+            <p>Jane grew up in Dunedin and started learning the piano at age 8 and progressed through to grade 8, learning until the age of 18.  At that point, university, life and adulthood intervened and playing the piano didn’t seem so important any more with classical singing (opera) and theatre now the performing focus.  Jane moved to Queenstown in 2004 and theatre has remained a key interest with Jane performing with both Remarkable Theatre and Showbiz Queenstown. In 2014, Jane decided to return to piano playing and began teaching with a small portfolio of students, playing the piano more herself and rediscovering the joy of making music.  She started teaching with Maya Music in term 2 of 2021 and has enjoyed expanding her musical world and sharing her love of music with people of all ages from the Queenstown community.  </p>
         </div>
     </div>
 </section>
